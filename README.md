@@ -9,7 +9,7 @@ Total Last Trip Empty Seats = 24
 - This means at the third trip, there are 24 (50 - 26) remaining seats.
 ```
 
-### Technologies || Packages Used
+### Technologies || Packages || Tools
 - C++, GNU C++ Compiler, Vim
 
 ### Notes
@@ -24,3 +24,4 @@ g++ -o app app.cc
 ```
 
 ### Screenshots || Recordings
+[test.webm](https://user-images.githubusercontent.com/69438999/184537073-4b95b85f-6c2f-4222-a115-79d74f7a251e.webm)
