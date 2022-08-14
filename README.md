@@ -1,5 +1,13 @@
 ### Description
 - A CLI app that will allow you to compute the Bus last trip empty seats based on the given total number of seats and passengers.
+- Example:
+```plaintext
+Total Bus Seats = 50
+Total Passengers = 126
+
+Total Last Trip Empty Seats = 24
+- This means at the third trip, there are 24 (50 - 26) remaining seats.
+```
 
 ### Technologies || Packages Used
 - C++, GNU C++ Compiler, Vim
