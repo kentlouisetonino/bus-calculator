@@ -31,7 +31,7 @@ int main() {
       cout << "Total empty seats: " << emptySeats << endl << endl;
       
       // ask if want to continue
-      cout << "Do you want to continue (1 - yes, 0i = no)?: ";
+      cout << "Do you want to continue (1 - yes, 0 = no)?: ";
       cin >> isContinue;
     } else {
       emptySeats = totalPassengers % totalSeats;
