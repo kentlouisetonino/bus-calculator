@@ -14,7 +14,7 @@ Total Last Trip Empty Seats = 24
 ### 2. Flowchart Diagram
 ![sample](https://user-images.githubusercontent.com/69438999/184685817-8ef3ef12-8323-4ecc-a64a-ab4e375d88b2.png)
 
-![flowchart drawio](https://user-images.githubusercontent.com/69438999/184685876-0fe1926b-4eb2-4cea-8659-09cbf971be68.png)
+
 
 <br />
 
