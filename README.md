@@ -20,7 +20,7 @@ Total Last Trip Empty Seats = 24
 
 <br />
 
-## Technologies || Packages || Tools
+## Technologies | Packages | Tools
 - C++, GNU C++ Compiler, Vim
 
 <br />
@@ -38,5 +38,5 @@ g++ -o app app.cc
 
 <br />
 
-## Screenshots || Recordings
+## Screenshots | Recordings
 [test.webm](https://user-images.githubusercontent.com/69438999/184537073-4b95b85f-6c2f-4222-a115-79d74f7a251e.webm)
