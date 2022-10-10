@@ -8,7 +8,7 @@ Total Last Trip Empty Seats = 24
 - This means at the third trip, there are 24 (50 - 26) remaining seats.
 ```
 
-## Flowchart Diagram
+## Flowchart
 ![sample](https://user-images.githubusercontent.com/69438999/184685817-8ef3ef12-8323-4ecc-a64a-ab4e375d88b2.png)
 
 ![flowchart drawio](https://user-images.githubusercontent.com/69438999/184686725-f8b25f81-d08e-44b8-8ea9-687f32965a92.png)
@@ -17,9 +17,9 @@ Total Last Trip Empty Seats = 24
 - _C++, GNU C++ Compiler, Vim_
 
 ## Note
-_1. Install the GNU C++ Compiler in your machine._
-_2. Go to the root directory._
-_3. Run the following commands._
+- _Install the GNU C++ Compiler in your machine._
+- _Go to the root directory._
+- _Run the following commands._
 ```bash
 g++ -o app app.cc
 ./app
