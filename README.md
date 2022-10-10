@@ -19,12 +19,12 @@ Total Last Trip Empty Seats = 24
 
 <br />
 
-## Technologies | Packages | Tools
+## Technology | Package | Tool
 - _C++, GNU C++ Compiler, Vim_
 
 <br />
 
-## Notes
+## Note
 1. _Install the GNU C++ Compiler in your machine._
 
 2. _Go to the root directory._
@@ -37,5 +37,5 @@ g++ -o app app.cc
 
 <br />
 
-## Screenshots | Recordings
+## Screenshot | Recording
 [test.webm](https://user-images.githubusercontent.com/69438999/184537073-4b95b85f-6c2f-4222-a115-79d74f7a251e.webm)
