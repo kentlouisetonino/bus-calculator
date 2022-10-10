@@ -1,6 +1,5 @@
 ## Description
-- A CLI Computer Program that will allow you to compute the Bus last trip empty seats based on the given total number of seats and passengers.
-- Example:
+- _A CLI Computer Program that will allow you to compute the Bus last trip empty seats based on the given total number of seats and passengers. Refer to the example below._
 ```plaintext
 Total Bus Seats = 50
 Total Passengers = 126
@@ -21,16 +20,16 @@ Total Last Trip Empty Seats = 24
 <br />
 
 ## Technologies | Packages | Tools
-- C++, GNU C++ Compiler, Vim
+- _C++, GNU C++ Compiler, Vim_
 
 <br />
 
 ## Notes
-1. Install the GNU C++ Compiler in your machine.
+1. _Install the GNU C++ Compiler in your machine._
 
-2. Go to the root directory.
+2. _Go to the root directory._
 
-3. Run the following commands.
+3. _Run the following commands._
 ```bash
 g++ -o app app.cc
 ./app
