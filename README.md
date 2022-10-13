@@ -14,7 +14,7 @@ Total Last Trip Empty Seats = 24
 ![flowchart drawio](https://user-images.githubusercontent.com/69438999/184686725-f8b25f81-d08e-44b8-8ea9-687f32965a92.png)
 
 ## Technology
-- _C++, GNU C++ Compiler, Vim_
+- _C++ • GNU C++ Compiler • Vim_
 
 ## Note
 - _Install the GNU C++ Compiler in your machine._
