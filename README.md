@@ -1,5 +1,5 @@
 ## Description
-> - _A CLI Computer Program that will allow you to compute the Bus last trip empty seats based on the given total number of seats and passengers. Refer to the example below._
+> _A CLI Computer Program that will allow you to compute the Bus last trip empty seats based on the given total number of seats and passengers. Refer to the example below._
 ```plaintext
 Total Bus Seats = 50
 Total Passengers = 126
