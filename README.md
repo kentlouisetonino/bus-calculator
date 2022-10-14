@@ -22,9 +22,9 @@ Total Last Trip Empty Seats = 24
 <br />
 
 ## Note
-> _Install the GNU C++ Compiler in your machine._ <br />
-> _Go to the root directory._ <br />
-> _Run the following commands._ <br />
+> - _Install the GNU C++ Compiler in your machine._ <br />
+> - _Go to the root directory._ <br />
+> - _Run the following commands._ <br />
 ```bash
 g++ -o app app.cc
 ./app
