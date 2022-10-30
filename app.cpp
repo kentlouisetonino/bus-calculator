@@ -21,16 +21,16 @@ int main() {
     cout << "------------------------------------------------------" << endl;
 
     // ask input for total bus seats
-    cout << endl << "Enter the total number of Bus seats: ";
+    cout << endl << "Enter the total number of bus seats: ";
     cin >> totalSeats;
 
     // ask input for total passengers
-    cout << "Enter the total number of Passengers: ";
+    cout << "Enter the total number of passengers: ";
     cin >> totalPassengers;
     if (totalPassengers < totalSeats) {
       // if passengers less than total seats
       emptySeats = totalSeats - totalPassengers;
-      cout << "Total empty seats: " << emptySeats << endl << endl;
+      cout << "Total last trip empty seats: " << emptySeats << endl << endl;
       
       // ask if want to continue
       cout << "Do you want to continue (1 - yes, 0 = no)?: ";
@@ -40,7 +40,7 @@ int main() {
       
       if (emptySeats == 0) {
         // if total seats is divisible by total passengers
-        cout << "Total empty seats: " << emptySeats << endl << endl;
+        cout << "Total last trip empty seats: " << emptySeats << endl << endl;
 
         // ask if want to continue
         cout << "Do you want to continue (1 - yes, 0 = no)?: ";      
@@ -48,7 +48,7 @@ int main() {
       } else {
         // if total seats are not divisible by total passengers
         emptySeats = totalSeats - emptySeats;
-        cout << "Total empty seats: " << emptySeats << endl << endl;
+        cout << "Total last trip empty seats: " << emptySeats << endl << endl;
         
         // ask if want to continue
         cout << "Do you want to continue (1 - yes, 0 = no)?: ";      

@@ -26,7 +26,7 @@ Explanation: This means at the 5th tripm the seats are full.
 > - Go to the root directory. <br />
 > - Run the following commands. <br />
 ```bash
-g++ -o app app.cc
+g++ -o app app.cpp
 ./app
 ```
 
