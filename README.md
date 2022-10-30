@@ -9,7 +9,7 @@ Explanation: This means at the 3rd trip, there are 24 (50 - 26) remaining seats.
 
 # Example 2
 Total bus seats = 50
-Total passengerss = 10
+Total passengers = 10
 Total last trip empty seats = 40
 Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 ```
