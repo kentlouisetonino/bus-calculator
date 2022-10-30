@@ -1,22 +1,25 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  // description
-  cout << endl << endl;
-  cout << "------------------------------------------------------" << endl;
-  cout << "|          **TRANSPORTATION CALCULATOR**             |" << endl;
-  cout << "|                                                    |" << endl;
-  cout << "| Calculate the Bus last trip empty seats based on a |" << endl;
-  cout << "| total number of Bus seats and Passengers.          |" << endl;
-  cout << "------------------------------------------------------" << endl;
-  
+int main() {  
   int totalSeats;
   int totalPassengers;
   int emptySeats;
   int isContinue;
 
   do {
+    // an ASCII escape character the clear the terminal screen
+    printf("\033c");
+
+    // description
+    cout << endl << endl;
+    cout << "------------------------------------------------------" << endl;
+    cout << "|          **TRANSPORTATION CALCULATOR**             |" << endl;
+    cout << "|                                                    |" << endl;
+    cout << "| Calculate the Bus last trip empty seats based on a |" << endl;
+    cout << "| total number of Bus seats and Passengers.          |" << endl;
+    cout << "------------------------------------------------------" << endl;
+
     // ask input for total bus seats
     cout << endl << "Enter the total number of Bus seats: ";
     cin >> totalSeats;
@@ -24,7 +27,6 @@ int main() {
     // ask input for total passengers
     cout << "Enter the total number of Passengers: ";
     cin >> totalPassengers;
-    
     if (totalPassengers < totalSeats) {
       // if passengers less than total seats
       emptySeats = totalSeats - totalPassengers;
