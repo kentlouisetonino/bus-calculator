@@ -11,7 +11,7 @@ Total Last Trip Empty Seats = 24
 <br />
 
 ## Technology Stack
-> C++ • GNU C++ Compiler • Vim
+> C++ • GNU C++ Compiler
 
 <br />
 
