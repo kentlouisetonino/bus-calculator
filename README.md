@@ -15,12 +15,6 @@ Total Last Trip Empty Seats = 24
 
 <br />
 
-## **Flowchart**
-![sample](https://user-images.githubusercontent.com/69438999/184685817-8ef3ef12-8323-4ecc-a64a-ab4e375d88b2.png)
-![flowchart drawio](https://user-images.githubusercontent.com/69438999/184686725-f8b25f81-d08e-44b8-8ea9-687f32965a92.png)
-
-<br />
-
 ## Note
 > - Install the GNU C++ Compiler in your machine. <br />
 > - Go to the root directory. <br />
