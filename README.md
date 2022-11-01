@@ -17,7 +17,7 @@ Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 <br />
 
 ## Technology Stack
-> C++ • GNU C++ Compiler
+> [C++](https://cplusplus.com/doc/tutorial/) • [GNU C++ Compiler](https://gcc.gnu.org/)
 
 <br />
 
