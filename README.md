@@ -1,5 +1,5 @@
 ## Description
-> A CLI application that will allow you to compute the Bus last trip empty seats based on the given total number of seats and passengers. Refer to the example below.
+> An application that will allow you to compute the Bus last trip empty seats based on the given total number of seats and passengers. Refer to the example below.
 ```bash
 # Example 1
 Total bus seats = 50
