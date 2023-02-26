@@ -16,11 +16,6 @@ Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 
 <br />
 
-## Technology Stack
-> [C++](https://cplusplus.com/doc/tutorial/) • [GNU C++ Compiler](https://gcc.gnu.org/)
-
-<br />
-
 ## Note
 > - Install the GNU C++ Compiler in your machine. <br />
 > - Go to the root directory. <br />
