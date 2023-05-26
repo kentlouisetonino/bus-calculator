@@ -15,8 +15,12 @@ Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 ```
 
 <br />
+<br />
+<br />
 
-## Note
+
+
+## Setup
 > - Install the GNU C++ Compiler in your machine. <br />
 > - Go to the root directory. <br />
 > - Run the following commands. <br />
@@ -26,6 +30,10 @@ g++ -o app app.cpp
 ```
 
 <br />
+<br />
+<br />
 
-## Recording
+
+
+## Testing
 [Transportation Calculator Test.webm](https://user-images.githubusercontent.com/69438999/198885804-774ce0f8-cf48-4295-9ffd-fd9ab070aa7d.webm)
