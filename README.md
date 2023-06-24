@@ -15,6 +15,10 @@ Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 ```
 
 <br />
+
+[Transportation Calculator Test.webm](https://user-images.githubusercontent.com/69438999/198885804-774ce0f8-cf48-4295-9ffd-fd9ab070aa7d.webm)
+
+<br />
 <br />
 <br />
 
@@ -28,12 +32,3 @@ Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 g++ -o app app.cpp
 ./app
 ```
-
-<br />
-<br />
-<br />
-
-
-
-## Testing
-[Transportation Calculator Test.webm](https://user-images.githubusercontent.com/69438999/198885804-774ce0f8-cf48-4295-9ffd-fd9ab070aa7d.webm)
