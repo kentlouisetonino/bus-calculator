@@ -24,7 +24,7 @@ Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 
 
 
-## Setup
+## Setup Guide
 > - Install the GNU C++ Compiler in your machine. <br />
 > - Go to the root directory. <br />
 > - Run the following commands. <br />
