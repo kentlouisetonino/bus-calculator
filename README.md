@@ -1,5 +1,8 @@
 ## Description
-> - A CLI application that will allow you to compute the Bus last trip empty seats based on the given total number of seats and passengers. Refer to the example below.
+> - A CLI computer program that will allow you to compute the Bus last trip empty
+    seats based on the given total number of seats and passengers. Refer to the
+    example below. The main technology stack are C++ and G++ (GNU C++ Compiler).
+
 ```bash
 # Example 1
 Total bus seats = 50
