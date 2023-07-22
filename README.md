@@ -1,7 +1,11 @@
 ## Description
 > - A CLI computer program that will allow you to compute the Bus last trip empty
     seats based on the given total number of seats and passengers. Refer to the
-    example below. The main technology stack are C++ and GNU C++ Compiler.
+    example below. The main technology stack are C++, GNU C++ Compiler (G++), Snapcraft, and GNU/Linux.
+
+<br />
+
+> - Snap Store: https://snapcraft.io/cli-transportation-calculator
 
 ```bash
 # Example 1
@@ -50,3 +54,14 @@ snapcraft
 snapcraft push cli-transportation-calculator_<version-number-in-snapcraft-yaml>_amd64.snap --release=stable
 ```
 
+<br />
+<br />
+<br />
+
+
+
+## Installation Guide
+```bash
+sudo snap install cli-transportation-calculator
+snap run cli-transportation-calculator.app
+```
