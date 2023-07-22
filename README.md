@@ -35,3 +35,18 @@ Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 g++ -o app app.cpp
 ./app
 ```
+
+<br />
+<br />
+<br />
+
+
+
+## Deployment Guide
+```bash
+snapcraft login
+snapcraft clean
+snapcraft
+snapcraft push cli-transportation-calculator_<version-number-in-snapcraft-yaml>_amd64.snap --release=stable
+```
+

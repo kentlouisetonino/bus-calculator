@@ -1,11 +1,11 @@
 name: cli-transportation-calculator
-version: '1.0'
+version: '1.2'
 summary: CLI Transporation Calculator
 description: |
   A CLI computer program that will allow you to compute the Bus last trip empty seats.
 
 grade: stable
-base: core18
+base: core20
 confinement: strict
 
 apps:
@@ -13,7 +13,10 @@ apps:
     command: app
 
 parts:
-  cli-transportation-calculator:
+  app:
+    # * Points to the current directory.
     source: .
-    plugin: cmake
-    build-packages: [g++, cmake]
+    plugin: dump
+    organize:
+      # * Move the app executable to the root of the snap package.
+      "app": "/usr/local/bin/app"
