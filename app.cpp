@@ -15,44 +15,44 @@ int main() {
   int isContinue;
 
   do {
-    // * clean up the screen first
+    // * Clean up the screen first.
     clearScreen();
 
-    // * application description
+    // * Application description.
     appDescription();
 
-    // * ask input for total bus seats
+    // * Ask input for total bus seats.
     cout << endl << "Enter the total number of bus seats: ";
     cin >> totalSeats;
 
-    // * ask input for total passengers
+    // * Ask input for total passengers.
     cout << "Enter the total number of passengers: ";
     cin >> totalPassengers;
 
     if (totalPassengers < totalSeats) {
-      // * if passengers less than total seats
+      // * If passengers less than total seats.
       emptySeats = totalSeats - totalPassengers;
       cout << "Total last trip empty seats: " << emptySeats << endl << endl;
       
-      // * ask if want to continue
+      // * Ask if want to continue.
       cout << "Do you want to continue (1 - yes, 0 = no)?: ";
       cin >> isContinue;
     } else {
       emptySeats = totalPassengers % totalSeats;
       
       if (emptySeats == 0) {
-        // if total seats is divisible by total passengers
+        // * If total seats is divisible by total passengers.
         cout << "Total last trip empty seats: " << emptySeats << endl << endl;
 
-        // ask if want to continue
+        // * Ask if want to continue.
         cout << "Do you want to continue (1 - yes, 0 = no)?: ";      
         cin >> isContinue;
       } else {
-        // if total seats are not divisible by total passengers
+        // * If total seats are not divisible by total passengers.
         emptySeats = totalSeats - emptySeats;
         cout << "Total last trip empty seats: " << emptySeats << endl << endl;
         
-        // ask if want to continue
+        // * Ask if want to continue
         cout << "Do you want to continue (1 - yes, 0 = no)?: ";      
         cin >> isContinue;
       }
