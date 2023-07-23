@@ -23,7 +23,7 @@ Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 
 <br />
 
-[Transportation Calculator Test.webm](https://user-images.githubusercontent.com/69438999/198885804-774ce0f8-cf48-4295-9ffd-fd9ab070aa7d.webm)
+https://github.com/kentlouisetonino/cli-transportation-calculator/assets/69438999/7240d929-643b-432f-bc4e-400d96001d2c
 
 <br />
 <br />
