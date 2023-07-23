@@ -1,12 +1,10 @@
 #include <iostream>
+#include "./headers/appdescription.hpp"
+#include "./headers/clearscreen.hpp"
 #define GREEN "\033[32m"
 #define CYAN "\033[36m"
 #define RESET "\033[0m"
 using namespace std;
-
-// * function prototype
-void clearScreen(void);
-void appDescription(void);
 
 int main() {  
   int totalSeats;
@@ -62,21 +60,5 @@ int main() {
   cout << endl << "**THANK YOU FOR USING**" << endl;
 
   return 0;
-}
-
-void clearScreen() {
-  cout << "\033c";
-}
-
-void appDescription() {
-  cout << endl << endl;
-  cout << GREEN;
-  cout << "------------------------------------------------------" << endl;
-  cout << "|          **TRANSPORTATION CALCULATOR**             |" << endl;
-  cout << "|                                                    |" << endl;
-  cout << "| Calculate the Bus last trip empty seats based on a |" << endl;
-  cout << "| total number of Bus seats and Passengers.          |" << endl;
-  cout << "------------------------------------------------------" << endl;
-  cout << GREEN RESET;
 }
 
