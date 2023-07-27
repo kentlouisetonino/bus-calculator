@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD 11)
 
 # * Add your C++ source files here
 add_executable(app
-  app.cpp
-  headers/clearscreen.hpp
-  headers/appdescription.hpp
+  src/app.cpp
+  src/headers/clearscreen.hpp
+  src/headers/appdescription.hpp
 )
+

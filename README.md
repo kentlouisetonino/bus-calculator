@@ -36,8 +36,8 @@ https://github.com/kentlouisetonino/cli-transportation-calculator/assets/6943899
 > - Go to the root directory. <br />
 > - Run the following commands. <br />
 ```bash
-g++ -o app app.cpp
-./app
+sudo chmod +x run
+./run
 ```
 
 <br />
