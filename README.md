@@ -48,6 +48,10 @@ sudo chmod +x run
 
 ## Deployment Guide
 ```bash
+# Manually compile the app.
+g++ -o app src/app.cpp
+
+# Deploy to snap store.
 snapcraft login
 snapcraft clean
 snapcraft
