@@ -14,9 +14,9 @@ apps:
 
 parts:
   app:
-    # * Points to the current directory.
+    # Points to the current directory.
     source: .
     plugin: dump
     organize:
-      # * Move the app executable to the root of the snap package.
+      # Move the app executable to the root of the snap package.
       "app": "/usr/local/bin/app"
