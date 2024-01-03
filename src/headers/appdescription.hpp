@@ -6,7 +6,7 @@ void appDescription() {
   std::cout << endl << endl;
   std::cout << GREEN;
   std::cout << "------------------------------------------------------" << endl;
-  std::cout << "|          **TRANSPORTATION CALCULATOR**             |" << endl;
+  std::cout << "|                 **Bus CALCULATOR**                 |" << endl;
   std::cout << "|                                                    |" << endl;
   std::cout << "| Calculate the Bus last trip empty seats based on a |" << endl;
   std::cout << "| total number of Bus seats and Passengers.          |" << endl;
