@@ -1,19 +1,19 @@
-name: cli-transportation-calculator
-version: '1.5'
-summary: CLI Transporation Calculator
+name: bus-calculator
+version: "1.6"
+summary: Bus Calculator
 description: |
-  A CLI computer program that will allow you to compute the Bus last trip empty seats.
+  A CLI application that will allow you to compute the Bus last trip empty seats.
 
 grade: stable
 base: core20
 confinement: strict
 
 apps:
-  app:
+  bus-calculator:
     command: app
 
 parts:
-  app:
+  bus-calculator:
     # Points to the current directory.
     source: .
     plugin: dump
