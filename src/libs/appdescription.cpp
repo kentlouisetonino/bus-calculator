@@ -6,12 +6,12 @@ using namespace std;
 void appDescription() {
   cout << endl << endl;
   cout << GREEN;
-  cout << "------------------------------------------------------" << endl;
-  cout << "|                 ** BUS CALCULATOR **               |" << endl;
-  cout << "|                                                    |" << endl;
-  cout << "| Calculate the Bus last trip empty seats based on a |" << endl;
-  cout << "| total number of Bus seats and Passengers.          |" << endl;
-  cout << "------------------------------------------------------" << endl;
+  cout << "\t------------------------------------------------------" << endl;
+  cout << "\t|                 ** BUS CALCULATOR **               |" << endl;
+  cout << "\t|                                                    |" << endl;
+  cout << "\t| Calculate the Bus last trip empty seats based on a |" << endl;
+  cout << "\t| total number of Bus seats and Passengers.          |" << endl;
+  cout << "\t------------------------------------------------------" << endl;
   cout << GREEN RESET;
 }
 
