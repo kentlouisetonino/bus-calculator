@@ -4,8 +4,6 @@
 
 > - The technologies are C++, GNU C++ Compiler (G++), Snapcraft, and GNU/Linux.
 
-> - Snap Store: https://snapcraft.io/cli-transportation-calculator
-
 ```bash
 # Example 1
 Total bus seats = 50
@@ -59,13 +57,13 @@ g++ -o app src/app.cpp
 snapcraft login
 snapcraft clean
 snapcraft
-snapcraft push cli-transportation-calculator_<version-number-in-snapcraft-yaml>_amd64.snap --release=stable
+snapcraft push bus-calculator_<version-number-in-snapcraft-yaml>_amd64.snap --release=stable
 ```
 
 > - Installation guide of snap.
 
 ```bash
-sudo snap install cli-transportation-calculator
-snap run cli-transportation-calculator.app
+sudo snap install bus-calculator
+snap run bus-calculator.app
 ```
 

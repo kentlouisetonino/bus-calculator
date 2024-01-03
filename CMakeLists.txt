@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(cli-transportation-calculator)
+project(bus-calculator)
 
 # Set the C++ standard.
 set(CMAKE_CXX_STANDARD 11)
