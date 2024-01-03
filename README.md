@@ -22,7 +22,7 @@ Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 
 <br />
 
-https://github.com/kentlouisetonino/cli-transportation-calculator/assets/69438999/7240d929-643b-432f-bc4e-400d96001d2c
+https://github.com/kentlouisetonino/bus-calculator/assets/69438999/801fccfe-781d-4948-bf73-0c4bfa5a5ccd
 
 <br />
 <br />
@@ -73,6 +73,6 @@ snapcraft push bus-calculator_<version-number-in-snapcraft-yaml>_amd64.snap --re
 sudo snap install bus-calculator
 
 # Run the app.
-snap run bus-calculator
+bus-calculator
 ```
 
