@@ -58,6 +58,10 @@ sudo chmod +x build
 # Manually compile the app.
 g++ -o app src/app.cpp
 
+# Run the multipass.
+sudo systemctl restart snap.multipass.multipassd.service
+
+
 # Deploy to snap store.
 snapcraft login
 snapcraft register bus-calculator
