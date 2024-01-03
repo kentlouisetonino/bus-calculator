@@ -66,7 +66,12 @@ snapcraft
 snapcraft push bus-calculator_<version-number-in-snapcraft-yaml>_amd64.snap --release=stable
 ```
 
-> - Installation guide of snap.
+<br />
+<br />
+
+
+
+## Installation
 
 ```bash
 # Install the app using snap.
