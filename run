@@ -1,5 +1,0 @@
-#!/bin/bash
-
-g++ -o app-local src/app.cpp
-./app-local
-

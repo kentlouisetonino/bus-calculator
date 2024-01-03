@@ -1,6 +1,7 @@
 #include <iostream>
+using namespace std;
 
 void clearScreen() {
-  std::cout << "\033c";
+  cout << "\033c";
 }
 
