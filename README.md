@@ -60,6 +60,7 @@ g++ -o app src/app.cpp
 
 # Deploy to snap store.
 snapcraft login
+snapcraft register bus-calculator
 snapcraft clean
 snapcraft
 snapcraft push bus-calculator_<version-number-in-snapcraft-yaml>_amd64.snap --release=stable
