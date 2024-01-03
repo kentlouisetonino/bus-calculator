@@ -4,6 +4,8 @@
 
 > - The technologies are C++, GNU C++ Compiler (G++), Snapcraft, and GNU/Linux.
 
+> - Snap : https://snapcraft.io/bus-calculator
+
 ```bash
 # Example 1
 Total bus seats = 50
@@ -43,11 +45,14 @@ chmod +x git-push-all
 > - Go to the root directory. Run the following commands.
 
 ```bash
-sudo chmod +x run
-./run
+# Change the permission mode and make it executable.
+sudo chmod +x build
+
+# Run the app locally.
+./app
 ```
 
-> - Deploy app in snap store.
+> - Deploying app in snap store.
 
 ```bash
 # Manually compile the app.
@@ -63,7 +68,10 @@ snapcraft push bus-calculator_<version-number-in-snapcraft-yaml>_amd64.snap --re
 > - Installation guide of snap.
 
 ```bash
+# Install the app using snap.
 sudo snap install bus-calculator
-snap run bus-calculator.app
+
+# Run the app.
+snap run bus-calculator
 ```
 
