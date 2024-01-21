@@ -30,16 +30,6 @@ https://github.com/kentlouisetonino/bus-calculator/assets/69438999/47a5784d-d8f3
 
 
 ## Local Development
-> - Pushing changes to all repository.
-
-```bash
-# Change mode the permission and make it executable.
-chmod +x git-push-all
-
-# Push changes to all repository.
-./git-push-all
-```
-
 > - Install the GNU C++ Compiler in your machine.
 
 > - Go to the root directory. Run the following commands.

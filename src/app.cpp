@@ -4,6 +4,7 @@
 #define GREEN "\033[32m"
 #define CYAN "\033[36m"
 #define RESET "\033[0m"
+using namespace std;
 
 int main() {  
   int totalSeats;
@@ -19,39 +20,39 @@ int main() {
     appDescription();
 
     // Ask input for total bus seats.
-    std::cout << endl << "\tEnter the total number of bus seats \t: ";
-    std::cin >> totalSeats;
+    cout << endl << "\tEnter the total number of bus seats \t: ";
+    cin >> totalSeats;
 
     // Ask input for total passengers.
-    std::cout << "\tEnter the total number of passengers \t: ";
-    std::cin >> totalPassengers;
+    cout << "\tEnter the total number of passengers \t: ";
+    cin >> totalPassengers;
 
     if (totalPassengers < totalSeats) {
       // If passengers less than total seats.
       emptySeats = totalSeats - totalPassengers;
-      std::cout << "\tTotal last trip empty seats \t\t: " << emptySeats << endl << endl;
+      cout << "\tTotal last trip empty seats \t\t: " << emptySeats << endl << endl;
       
       // Ask if want to continue.
-      std::cout << "\tTry again (1 - yes, 0 = no)? \t\t: ";
-      std::cin >> isContinue;
+      cout << "\tTry again (1 - yes, 0 = no)? \t\t: ";
+      cin >> isContinue;
     } else {
       emptySeats = totalPassengers % totalSeats;
       
       if (emptySeats == 0) {
         // If total seats is divisible by total passengers.
-        std::cout << "\tTotal last trip empty seats: " << emptySeats << endl << endl;
+        cout << "\tTotal last trip empty seats: " << emptySeats << endl << endl;
 
         // Ask if want to continue.
-        std::cout << "\tDo you want to continue (1 - yes, 0 = no)?: ";      
-        std::cin >> isContinue;
+        cout << "\tDo you want to continue (1 - yes, 0 = no)?: ";      
+        cin >> isContinue;
       } else {
         // If total seats are not divisible by total passengers.
         emptySeats = totalSeats - emptySeats;
-        std::cout << "\tTotal last trip empty seats: " << emptySeats << endl << endl;
+        cout << "\tTotal last trip empty seats: " << emptySeats << endl << endl;
         
         // Ask if want to continue
-        std::cout << "\tDo you want to continue (1 - yes, 0 = no)?: ";      
-        std::cin >> isContinue;
+        cout << "\tDo you want to continue (1 - yes, 0 = no)?: ";      
+        cin >> isContinue;
       }
     }
   } while (isContinue != 0);
