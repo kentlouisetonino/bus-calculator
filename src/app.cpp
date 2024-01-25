@@ -6,7 +6,7 @@
 #define RESET "\033[0m"
 using namespace std;
 
-int main() {  
+int main() {
   int totalSeats;
   int totalPassengers;
   int emptySeats;
@@ -31,34 +31,33 @@ int main() {
       // If passengers less than total seats.
       emptySeats = totalSeats - totalPassengers;
       cout << "\tTotal last trip empty seats \t\t: " << emptySeats << endl << endl;
-      
+
       // Ask if want to continue.
       cout << "\tTry again (1 - yes, 0 = no)? \t\t: ";
       cin >> isContinue;
     } else {
       emptySeats = totalPassengers % totalSeats;
-      
+
       if (emptySeats == 0) {
         // If total seats is divisible by total passengers.
         cout << "\tTotal last trip empty seats: " << emptySeats << endl << endl;
 
         // Ask if want to continue.
-        cout << "\tDo you want to continue (1 - yes, 0 = no)?: ";      
+        cout << "\tDo you want to continue (1 - yes, 0 = no)?: ";
         cin >> isContinue;
       } else {
         // If total seats are not divisible by total passengers.
         emptySeats = totalSeats - emptySeats;
         cout << "\tTotal last trip empty seats: " << emptySeats << endl << endl;
-        
+
         // Ask if want to continue
-        cout << "\tDo you want to continue (1 - yes, 0 = no)?: ";      
+        cout << "\tDo you want to continue (1 - yes, 0 = no)?: ";
         cin >> isContinue;
       }
     }
   } while (isContinue != 0);
-  
+
   clearScreen();
 
   return 0;
 }
-

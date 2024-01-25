@@ -14,4 +14,3 @@ void appDescription() {
   cout << "\t------------------------------------------------------" << endl;
   cout << GREEN RESET;
 }
-
