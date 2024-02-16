@@ -1,4 +1,9 @@
 ## Description
+
+https://github.com/kentlouisetonino/bus-calculator/assets/69438999/47a5784d-d8f3-4d1a-9427-6106e67751a5
+
+<br />
+
 > - A CLI computer program that will allow you to compute the Bus last trip empty
     seats based on the given total number of seats and passengers.
 
@@ -20,9 +25,6 @@ Total last trip empty seats = 40
 Explanation: This means at the 1st trip, there are 40 (50 - 10) remaining seats.
 ```
 
-<br />
-
-https://github.com/kentlouisetonino/bus-calculator/assets/69438999/47a5784d-d8f3-4d1a-9427-6106e67751a5
 
 <br />
 <br />
@@ -50,7 +52,10 @@ sudo chmod +x build
 ## Installation
 
 ```bash
-# Install the app using snap.
+# If already installed.
+sudo snap refresh bus-calculator
+
+# If not yet installed.
 sudo snap install bus-calculator
 
 # Run the app.
