@@ -11,6 +11,8 @@ https://github.com/kentlouisetonino/bus-calculator/assets/69438999/47a5784d-d8f3
 
 > - Snap : https://snapcraft.io/bus-calculator
 
+> - Videos : https://www.youtube.com/playlist?list=PLPks-uiro_XJFZY7wBi5eA1byiHTDuWcl
+
 ```bash
 # Example 1
 Total bus seats = 50
