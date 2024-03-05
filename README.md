@@ -4,7 +4,7 @@ https://github.com/kentlouisetonino/bus-calculator/assets/69438999/47a5784d-d8f3
 
 <br />
 
-> - A CLI computer program that will allow you to compute the Bus last trip empty
+> - A CLI tool that will allow you to compute the Bus last trip empty
     seats based on the given total number of seats and passengers.
 
 > - The technologies are C++, GNU C++ Compiler (G++), Snapcraft, and GNU/Linux.
