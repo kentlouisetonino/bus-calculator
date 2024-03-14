@@ -1,6 +1,8 @@
 ### DESCRIPTION
 ##
-https://github.com/kentlouisetonino/bus-calculator/assets/69438999/47a5784d-d8f3-4d1a-9427-6106e67751a5
+
+![bus-calculator](https://github.com/kentlouisetonino/bus-calculator/assets/69438999/ab61c44d-26b0-4b84-82c3-c220299447a7)
+
 
 <br />
 
